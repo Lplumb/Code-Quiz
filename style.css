@@ -1,0 +1,59 @@
+body {
+    background-image: url("img/background.png");
+    background-color: #cccccc;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+   }
+h3 {
+    color: brown;
+}
+
+.highscore{
+    font-weight: bolder;
+}
+
+.container {
+    width: 800px;
+    max-width: 80%;
+    background-color: skyblue;
+    border-radius: 5px;
+    padding: 60px;
+    box-shadow: 0 0 10px 2px;
+    font-size: larger;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+.btn-grid {
+    display: grid;
+    gap: 10px;
+
+}
+
+.btn {
+    background-color: plum;
+    border: 1px solid purple;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+.btn:hover {
+    border-color: black;
+}
+
+.btn.correct {
+    background-color: green;
+}
+
+.btn.wrong {
+    background-color: red;
+}
+.hide {
+    display: none;
+}
