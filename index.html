@@ -16,7 +16,8 @@
     <div class="container">
         <h1>CODE QUIZ</h1>
         <p id = "paragraph">A quiz to test your coding knowledge, it'll be 4 questions and each wrong answer subtracts time from the timer.</p>
-        <button id ="start-button" >Start</button><!--The start button to start the quiz-->
+        <button id ="start-button" class="btn">Start</button><!--The start button to start the quiz-->
+        <button id ="start-button" class="btn">Reset</button>
         <div id = "question-container" class ="hide">
             <div id = "question">Question</div>
             <br>
@@ -27,6 +28,14 @@
                 <button class="btn">Answer 4</button>
             </div>
         </div>
+
+        <button id="next-bttn" class="next-btn btn hide">Next</button>
+
+        <div class="container hide">
+            <h4>High Scores</h4>
+
+        </div>
+
     </div>
     <script src="script.js"></script>
 </body>
